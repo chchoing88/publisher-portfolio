@@ -993,7 +993,7 @@ ul, li {
 .skill-banner {
   background-position: center center;
   background-repeat: no-repeat;
-  background-image: url("../../img/skill_banner.jpg");
+  background-image: url("../img/skill_banner.jpg");
   padding: 10px 0;
   overflow: hidden;
 }
