@@ -1,0 +1,76 @@
+@media only screen and (max-width: 1200px) {
+  /* line 11, ../sass/response.scss */
+  .container {
+    width: 100%;
+    padding: 0 5px;
+  }
+
+  /* line 15, ../sass/response.scss */
+  .gnb {
+    right: 5px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  /* line 21, ../sass/response.scss */
+  body {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  /* line 28, ../sass/response.scss */
+  body {
+    font-size: 13px;
+    width: 100%;
+  }
+
+  /* line 32, ../sass/response.scss */
+  #wrap {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* line 36, ../sass/response.scss */
+  .pc-gnb {
+    display: none;
+  }
+
+  /* line 39, ../sass/response.scss */
+  .m-gnb {
+    display: block;
+  }
+
+  /* line 43, ../sass/response.scss */
+  .col1-3.itv {
+    width: 47%;
+    margin-right: 6%;
+  }
+
+  /* line 44, ../sass/response.scss */
+  .col1-3.itv:nth-of-type(3n) {
+    margin-right: 6%;
+  }
+
+  /* line 45, ../sass/response.scss */
+  .col1-3.itv:nth-of-type(2n) {
+    margin-right: 0;
+  }
+
+  /* line 46, ../sass/response.scss */
+  .col1-2.itv {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  /* line 47, ../sass/response.scss */
+  .col1-2.itv:nth-of-type(2n) {
+    margin-right: 0;
+  }
+
+  /* line 49, ../sass/response.scss */
+  .port-slide-wrap {
+    float: none;
+    width: 100%;
+    margin-bottom: 45px;
+  }
+}
